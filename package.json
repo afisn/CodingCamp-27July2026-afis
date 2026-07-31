@@ -1,0 +1,14 @@
+{
+  "name": "todo-life-dashboard",
+  "version": "1.0.0",
+  "description": "To-Do List Life Dashboard — client-side web app",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "fast-check": "^3.21.0"
+  }
+}
