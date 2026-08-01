@@ -27,16 +27,12 @@
       </button>
     </header>
 
-    <!-- ========== MAIN CONTENT ========== -->
-    <main>
-
-      <!-- ---- Greeting Panel ---- -->
-      <section id="panel-greeting" aria-labelledby="greeting-heading">
+    <!-- ---- Greeting Panel ---- -->
+      <div class="hero" id="panel-greeting" aria-labelledby="greeting-heading">
         <!-- <h2 id="greeting-heading">Greeting</h2> -->
-
+        <p id="greeting-text" aria-label="Greeting message">Good Morning, Friend</>
         <p id="greeting-time" aria-label="Current time">00:00</p>
         <p id="greeting-date" aria-label="Current date"></p>
-        <p id="greeting-text" aria-label="Greeting message">Good Morning, Friend</p>
 
         <div class="name-input-group">
           <label for="greeting-name-input">Your name</label>
@@ -48,7 +44,11 @@
             maxlength="50"
           />
         </div>
-      </section>
+      </div>
+
+      <!-- ========== MAIN CONTENT ========== -->
+
+    <main>
 
       <!-- ---- Focus Timer Panel ---- -->
       <section id="panel-timer" aria-labelledby="timer-heading">
